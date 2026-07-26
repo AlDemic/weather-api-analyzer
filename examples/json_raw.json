@@ -1,0 +1,106 @@
+[
+    {
+        "openMeteo": {
+            "current": {
+                "temp": 21,
+                "precip": "Thunderstorm (slight or moderate)"
+            },
+            "nextDay": {
+                "09": {
+                    "temp": 21,
+                    "precip": "Overcast"
+                },
+                "12": {
+                    "temp": 23,
+                    "precip": "Rain showers (slight)"
+                },
+                "15": {
+                    "temp": 24,
+                    "precip": "Partly cloudy"
+                },
+                "18": {
+                    "temp": 22,
+                    "precip": "Overcast"
+                }
+            }
+        }
+    },
+    {
+        "openWeather": {
+            "current": {
+                "temp": 24,
+                "precip": "moderate rain"
+            },
+            "nextDay": {
+                "09": {
+                    "temp": 25,
+                    "precip": "light rain"
+                },
+                "12": {
+                    "temp": 24,
+                    "precip": "light rain"
+                },
+                "15": {
+                    "temp": 22,
+                    "precip": "overcast clouds"
+                },
+                "18": {
+                    "temp": 20,
+                    "precip": "overcast clouds"
+                }
+            }
+        }
+    },
+    {
+        "weatherApi": {
+            "current": {
+                "temp": 28,
+                "precip": "Patchy rain nearby"
+            },
+            "nextDay": {
+                "09": {
+                    "temp": 23,
+                    "precip": "Patchy light rain in area with thunder"
+                },
+                "12": {
+                    "temp": 28,
+                    "precip": "Sunny"
+                },
+                "15": {
+                    "temp": 30,
+                    "precip": "Partly Cloudy"
+                },
+                "18": {
+                    "temp": 29,
+                    "precip": "Sunny"
+                }
+            }
+        }
+    },
+    {
+        "meteoInst": {
+            "current": {
+                "temp": 22,
+                "precip": "heavyrain"
+            },
+            "nextDay": {
+                "09": {
+                    "temp": 24,
+                    "precip": "lightrainshowers"
+                },
+                "12": {
+                    "temp": 25,
+                    "precip": "lightrainshowers"
+                },
+                "15": {
+                    "temp": 23,
+                    "precip": "cloudy"
+                },
+                "18": {
+                    "temp": 21,
+                    "precip": "partlycloudy"
+                }
+            }
+        }
+    }
+]

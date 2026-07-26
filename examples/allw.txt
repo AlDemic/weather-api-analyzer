@@ -1,0 +1,50 @@
+============WEATHER RESULT============
+Place: Tokyo 
+
+Today: 26-07-2026 12:40:36 
+
+API: Open Meteo, Open Weather, Weather API, Norway Meteo Institute
+
+===================
+Final result
+===================
+[Now]
+
+Temperature: 26 °C
+
+Weather:
+Mostly clear - 25%
+Light rain - 25%
+Cloudy - 25%
+Heavy rain - 25%
+
+[Tomorrow]
+09:00
+Average temperature: 27 °C
+
+Clear - 25%
+Light rain - 25%
+Partly cloudy - 50%
+
+12:00
+Average temperature: 27 °C
+
+Mostly clear - 25%
+Cloudy - 50%
+Clear - 25%
+
+15:00
+Average temperature: 28 °C
+
+Mostly clear - 25%
+Overcast - 25%
+Rain - 25%
+Cloudy - 25%
+
+18:00
+Average temperature: 25 °C
+
+Mostly clear - 25%
+Overcast - 25%
+Light rain shower - 25%
+Cloudy - 25%
