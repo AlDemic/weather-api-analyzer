@@ -11,6 +11,12 @@
 
         public static function getUpdate($offset, $timeout) {
 
+            //check API KEY
+            $isKeyChanged = self::isApiKeyChanged(self::API_KEY);
+            if(!$isKeyChanged) {
+                throw new RuntimeException('Set correct TG API KEY');
+            }
+
             $getUrl = self::getUrl('getUpdates');
 
             $req = new BotHttpRequestService();
@@ -51,5 +57,10 @@
                     'text' => $text,
                 ]
             );
+        }
+
+        private static function isApiKeyChanged($apiKey) {
+            $apiKey = trim($apiKey);
+            return ($apiKey !== 'TG BOT TOKEN HERE') ? true : false; 
         }
     }
